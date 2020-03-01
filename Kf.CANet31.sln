@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kf.CANet31.Core.Domain", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kf.CANet31.Core.Application", "Source\Core\Kf.CANet31.Core.Application\Kf.CANet31.Core.Application.csproj", "{3B939B1B-BD4E-4D8D-959A-09A608F62ACA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kf.CANet31.Infrastructure.Persistence.Ef", "Source\Infrastructure\Kf.CANet31.Infrastructure.Persistence.Ef\Kf.CANet31.Infrastructure.Persistence.Ef.csproj", "{749F5DA9-B95B-4C5C-8104-3FD9F69B06A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{3B939B1B-BD4E-4D8D-959A-09A608F62ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B939B1B-BD4E-4D8D-959A-09A608F62ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B939B1B-BD4E-4D8D-959A-09A608F62ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749F5DA9-B95B-4C5C-8104-3FD9F69B06A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749F5DA9-B95B-4C5C-8104-3FD9F69B06A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749F5DA9-B95B-4C5C-8104-3FD9F69B06A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749F5DA9-B95B-4C5C-8104-3FD9F69B06A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{0A3998BA-B563-4E8B-938E-4190A944B0D7} = {A9326A70-71A5-4108-AAEB-2D25B0285C63}
 		{5E7E5A72-4DBF-4646-A3A2-165BD2695775} = {8C75E16C-1263-4F12-8E54-BA217A483A99}
 		{3B939B1B-BD4E-4D8D-959A-09A608F62ACA} = {8C75E16C-1263-4F12-8E54-BA217A483A99}
+		{749F5DA9-B95B-4C5C-8104-3FD9F69B06A5} = {0A3998BA-B563-4E8B-938E-4190A944B0D7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2478A3CB-B437-46B8-A5EB-8686F48A2528}
