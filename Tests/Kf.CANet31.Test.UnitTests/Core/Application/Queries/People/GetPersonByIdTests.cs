@@ -21,7 +21,10 @@ namespace Kf.CANet31.Test.UnitTests.Core.Application.Queries.People
             )
             {
                 var sut = new GetPersonById.Handler(db);
-                var result = await sut.HandleAsync(new GetPersonById.Query(33311), CancellationToken.None);
+                var result = await sut.HandleAsync(
+                    new GetPersonById.Query(33311), 
+                    CancellationToken.None
+                );
 
                 result.Should().NotBeNull();
                 result.Name.FirstName.Should().Be("Yves");
@@ -39,7 +42,10 @@ namespace Kf.CANet31.Test.UnitTests.Core.Application.Queries.People
             )
             {
                 var sut = new GetPersonById.Handler(db);
-                var result = await sut.HandleAsync(new GetPersonById.Query(0), CancellationToken.None);
+                var result = await sut.HandleAsync(
+                    new GetPersonById.Query(0), 
+                    CancellationToken.None
+                );
 
                 result.Should().BeNull();                
             }
