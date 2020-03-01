@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.6.2" />
+    <PackageReference Include="Kf.Essentials" Version="1.4.1" />
+    <PackageReference Include="Kf.Essentials.CleanArchitecture" Version="1.2.2" />
+    <PackageReference Include="LanguageExt.Core" Version="3.4.12" />
+  </ItemGroup>
+
+</Project>

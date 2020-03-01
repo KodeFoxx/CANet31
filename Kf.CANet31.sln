@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5D668DC2-1233-4C5E-85F8-D747AD46CF36}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+		.github\workflows\ubuntu-latest.yml = .github\workflows\ubuntu-latest.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{A9326A70-71A5-4108-AAEB-2D25B0285C63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9C47F0A0-921A-4222-82D8-82320366CBFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kf.CANet31.Test.UnitTests", "Tests\Kf.CANet31.Test.UnitTests\Kf.CANet31.Test.UnitTests.csproj", "{3601EE62-4327-45E4-AE7E-FBA4AD9951DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8C75E16C-1263-4F12-8E54-BA217A483A99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{0A3998BA-B563-4E8B-938E-4190A944B0D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kf.CANet31.Core.Domain", "Source\Core\Kf.CANet31.Core.Domain\Kf.CANet31.Core.Domain.csproj", "{5E7E5A72-4DBF-4646-A3A2-165BD2695775}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kf.CANet31.Core.Application", "Source\Core\Kf.CANet31.Core.Application\Kf.CANet31.Core.Application.csproj", "{3B939B1B-BD4E-4D8D-959A-09A608F62ACA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3601EE62-4327-45E4-AE7E-FBA4AD9951DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3601EE62-4327-45E4-AE7E-FBA4AD9951DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3601EE62-4327-45E4-AE7E-FBA4AD9951DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3601EE62-4327-45E4-AE7E-FBA4AD9951DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E7E5A72-4DBF-4646-A3A2-165BD2695775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E7E5A72-4DBF-4646-A3A2-165BD2695775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E7E5A72-4DBF-4646-A3A2-165BD2695775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E7E5A72-4DBF-4646-A3A2-165BD2695775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B939B1B-BD4E-4D8D-959A-09A608F62ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B939B1B-BD4E-4D8D-959A-09A608F62ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B939B1B-BD4E-4D8D-959A-09A608F62ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B939B1B-BD4E-4D8D-959A-09A608F62ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3601EE62-4327-45E4-AE7E-FBA4AD9951DA} = {9C47F0A0-921A-4222-82D8-82320366CBFE}
+		{8C75E16C-1263-4F12-8E54-BA217A483A99} = {A9326A70-71A5-4108-AAEB-2D25B0285C63}
+		{0A3998BA-B563-4E8B-938E-4190A944B0D7} = {A9326A70-71A5-4108-AAEB-2D25B0285C63}
+		{5E7E5A72-4DBF-4646-A3A2-165BD2695775} = {8C75E16C-1263-4F12-8E54-BA217A483A99}
+		{3B939B1B-BD4E-4D8D-959A-09A608F62ACA} = {8C75E16C-1263-4F12-8E54-BA217A483A99}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2478A3CB-B437-46B8-A5EB-8686F48A2528}
+	EndGlobalSection
+EndGlobal

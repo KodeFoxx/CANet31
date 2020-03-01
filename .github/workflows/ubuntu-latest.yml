@@ -1,0 +1,22 @@
+name: CI @ ubuntu-latest
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Enable git longpaths
+        run: git config --global core.longpaths true
+      - name: Setup .NET Core SDK (v3.1.102)
+        uses: actions/setup-dotnet@v1.4.0
+        with:
+          dotnet-version: 3.1.102
+      - name: Checkout
+        uses: actions/checkout@v2.0.0    
+      - name: Build project
+        run: dotnet build --configuration Release
+      - name: Run tests
+        run: dotnet test --configuration Release --no-build
