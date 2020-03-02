@@ -1,5 +1,5 @@
 ![CI @ ubuntu-latest](https://github.com/KodeFoxx/CANet31/workflows/CI%20@%20ubuntu-latest/badge.svg)
-![GitHub top language](https://img.shields.io/github/languages/top/kodefoxx/kf.canet31)
+![GitHub top language](https://img.shields.io/github/languages/top/kodefoxx/canet31)
 
 # Clean Architecture with .Net Core 3.1
 A Clean Architecture .Net Core 3.1 template.
